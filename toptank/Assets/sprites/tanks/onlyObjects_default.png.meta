@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 228ae00186be5d64dab44626e9de6ab7
-timeCreated: 1510076426
+timeCreated: 1510166544
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,14 @@ TextureImporter:
     21300004: tank3
     21300006: tank4
     21300008: cannon1
+    21300010: bullet
+    21300012: tiretracks
+    21300014: flash
+    21300016: explo1
+    21300018: explo2
+    21300020: explo3
+    21300022: explo4
+    21300024: crate
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -151,7 +159,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,6 +172,118 @@ TextureImporter:
         y: 305
         width: 12
         height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bullet
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 291
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tiretracks
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 213
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: flash
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 36
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explo1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explo2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 271
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explo3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: explo4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: crate
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 155
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
